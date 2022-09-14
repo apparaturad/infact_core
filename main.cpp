@@ -11,8 +11,6 @@ int main(int argc, char ** argv)
 	gh_core * core;
 
 	core = new gh_core((const char *) "/home/ilya/infact/RSTEARI.hed", false, true);
-// 	core = new gh_core((const char *) "/home/ilya/infact/RSCOLRI.hed", true, true);
-// 	core = new gh_core((const char *) "/home/ilya/infact/RSBDRRI.hed", true, true);
 	delete core;
 
 	return 0;
